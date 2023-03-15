@@ -3,22 +3,21 @@ html{
 }
 
 body{
-    background-color: cadetblue;
+    background-color: #2d4059;   
     margin: 0;
     padding: 0;
 }
 
 header{
-    background-color: #495E88;
-    align-self: auto;    
-    font-family: "Montserrat", sans-serif;
+    background-color: #222831;       
+    font-family: "Oswald", sans-serif;
     font-size: 16px;
     padding: 0;    
     position: fixed;
-    height: 100px;
+    height: 100px;    
     top: 0;
     width: 100%;  
-    display: relative;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
@@ -26,18 +25,16 @@ header{
 }
 
 a{
-    background-color: black;
+    background-color: #2b323d;
     border: none;
     color: white;
-    padding: 20px 34px;
+    padding: 20px 40px;
     text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 20px;
-    margin: 4px 2px;
+    text-decoration: none;   
+    font-size: 20px;     
     cursor: pointer;
-    border-radius: 20px;  
-
+    border-radius: 20px; 
+    margin: 5px;   
 }
 
 button{
